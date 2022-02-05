@@ -144,7 +144,7 @@ Perform_Action(Actions*){
 	SetTitleMatchMode,%Mode%
 	SetBatchLines,%BCH%
 	if(A_ThisLabel="PA_Exit"){
-		MsgBox,262144,Error,%Error%
+		;MsgBox,262144,Error,%Error%
 		Exit
 	}
 	return "ahk_id" Obj.HWND
