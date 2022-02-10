@@ -11,26 +11,26 @@ F15::Stop_Screen()   ;stop Screenshare
 ; Functions CHANGE THESE IF YOU WANT TO COUSTOMEMIZE YOUR CLICKS
 Start_Screen1(){
     WinGetActiveTitle,Title
-    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:"Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzz003k00w00D043k1Uw3wD1zXkzkw8ED003k00w00DU07ztzzk3zw0zzzzzzzy",Ones:203,Zeros:197,Threshold:152,W:20,H:20})
-    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:"Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzzzzzzzzzzzwCHw9Yz3DDkmHU1Yn09BkmGQAYb39Bk6H0zzzzzzzzzzzzzzzzy",Ones:283,Zeros:117,Threshold:96,W:20,H:20})
-    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:"Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzzzzzzzzzztzzsDzy3s7sy0yDWDXsXsy8yDWDXsXszzzzzzzzzzzzzzzzzzzzy",Ones:324,Zeros:76,Threshold:133,W:20,H:20})
-    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:0,Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:45,Area:"Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzzzzzzzzzzzzbbzttzyTzzbYnttAiSG/bY6ttViSMvUbDzzzzzzzzzzzzzzzzy",Ones:327,Zeros:73,Threshold:170,W:20,H:20})
+    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:" Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzz003k00w00D043k1Uw3wD1zXkzkw8ED003k00w00DU07ztzzk3zw0zzzzzzzy",Ones:203,Zeros:197,Threshold:152,W:20,H:20})   
+	Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:" Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzzzzzzzzzzzwCHw9Yz3DDkmHU1Yn09BkmGQAYb39Bk6H0zzzzzzzzzzzzzzzzy",Ones:283,Zeros:117,Threshold:96,W:20,H:20})
+    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:" Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzzzzzzzzzztzzsDzy3s7sy0yDWDXsXsy8yDWDXsXszzzzzzzzzzzzzzzzzzzzy",Ones:324,Zeros:76,Threshold:133,W:20,H:20})
+    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:45,Area:" Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzzzzzzzzzzzzbbzttzyTzzbYnttAiSG/bY6ttViSMvUbDzzzzzzzzzzzzzzzzy",Ones:327,Zeros:73,Threshold:170,W:20,H:20})
     WinActivate,%Title%
 }
 
 Start_Screen2(){
     WinGetActiveTitle,Title
-    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:"Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzz003k00w00D043k1Uw3wD1zXkzkw8ED003k00w00DU07ztzzk3zw0zzzzzzzy",Ones:203,Zeros:197,Threshold:152,W:20,H:20})
-    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:"Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzzzzzzzzzzzwCHw9Yz3DDkmHU1Yn09BkmGQAYb39Bk6H0zzzzzzzzzzzzzzzzy",Ones:283,Zeros:117,Threshold:96,W:20,H:20})
-    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:"Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzzzzzzzzzzzzzy7zy0zzqC1znUDssXwSMyDaD7tXUCMs3zzzzzzzzzzzzzzzzy",Ones:318,Zeros:82,Threshold:138,W:20,H:20})
-    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:0,Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:45,Area:"Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzzzzzzzzzzzzbbzttzyTzzbYnttAiSG/bY6ttViSMvUbDzzzzzzzzzzzzzzzzy",Ones:327,Zeros:73,Threshold:170,W:20,H:20})
+	Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:" Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzz003k00w00D043k1Uw3wD1zXkzkw8ED003k00w00DU07ztzzk3zw0zzzzzzzy",Ones:203,Zeros:197,Threshold:152,W:20,H:20})
+    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:" Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzzzzzzzzzzzwCHw9Yz3DDkmHU1Yn09BkmGQAYb39Bk6H0zzzzzzzzzzzzzzzzy",Ones:283,Zeros:117,Threshold:96,W:20,H:20})
+    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:" Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzzzzzzzzzzzzzy7zy0zzqC1znUDssXwSMyDaD7tXUCMs3zzzzzzzzzzzzzzzzy",Ones:318,Zeros:82,Threshold:138,W:20,H:20})
+    Perform_Action({Type:"Mouse",Action:"Left",Actual:0,ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:45,Area:" Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzzzzzzzzzzzzbbzttzyTzzbYnttAiSG/bY6ttViSMvUbDzzzzzzzzzzzzzzzzy",Ones:327,Zeros:73,Threshold:170,W:20,H:20})
     WinActivate,%Title%
 }
 
 Stop_Screen(){
     WinGetActiveTitle,Title
-    Perform_Action({Type:"Mouse",Action:"Left",Actual:"",ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:"Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzz003k00w00D123kNUw3kD0M3kD0w6MD003k00w00DU07ztzzk3zw0zzzzzzzy",Ones:196,Zeros:204,Threshold:111,W:20,H:20})
-    WinActivate,%Title%
+    Perform_Action({Type:"Mouse",Action:"Left",Actual:"",ClickCount:1,RestorePOS:"",Wait:2,WindowWait:2,Comment:"Mouse Click",Match:1,OffsetX:10,OffsetY:10,Area:" Discord ahk_class Chrome_WidgetWin_1",Bits:"zzzzzzz003k00w00D123kNUw3kD0M3kD0w6MD003k00w00DU07ztzzk3zw0zzzzzzzy",Ones:196,Zeros:204,Threshold:111,W:20,H:20})
+	WinActivate,%Title%
 }
 
 ;~ Helper Function -> the-automator-com/amt
